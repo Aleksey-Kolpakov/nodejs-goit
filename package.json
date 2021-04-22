@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-goit",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "node-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleksey-Kolpakov/nodejs-goit.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "Kolpakov <gmsaleksei@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aleksey-Kolpakov/nodejs-goit/issues"
+  },
+  "homepage": "https://github.com/Aleksey-Kolpakov/nodejs-goit#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
