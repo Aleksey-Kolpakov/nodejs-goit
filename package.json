@@ -1,7 +1,6 @@
 {
   "name": "nodejs-goit",
   "version": "1.0.0",
-  "type": "module",
   "description": "node-js",
   "main": "index.js",
   "scripts": {
@@ -25,5 +24,9 @@
   "homepage": "https://github.com/Aleksey-Kolpakov/nodejs-goit#readme",
   "devDependencies": {
     "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "commander": "^7.2.0",
+    "uuid": "^8.3.2"
   }
 }
